@@ -112,23 +112,19 @@ Here is the graph for both $x$ and $y$ velocity:
 ![Velocity graph, showing two lines with very low slopes for x velocity, and two lines with significant negative slopes for y velocity.](./velocity.png)
 
 The appropriate best-fit equations are, for the first half (before the bounce),
-\[
-\begin{aligned}
+\begin{align*}
 x&=(2.627\,\tfrac{\mathrm m}{\mathrm s})t+1.183\,\mathrm m \\
 y&=-(5.980\,\tfrac{\mathrm m}{\mathrm s^2})t^2-(2.374\,\tfrac{\mathrm m}{\mathrm s})t+1.623\,\mathrm m \\
 v_x&=2.493\,\tfrac{\mathrm m}{\mathrm s} \\
 v_y&=-(11.64\,\tfrac{\mathrm m}{\mathrm s^2})t-2.454\,\tfrac{\mathrm m}{\mathrm s}
-\end{aligned}
-\]
+\end{align*}
 and for the second half (after the bounce),
-\[
-\begin{aligned}
+\begin{align*}
 x&=(1.752\,\tfrac{\mathrm m}{\mathrm s})t+1.474\,\mathrm m \\
 y&=-(5.775\,\tfrac{\mathrm m}{\mathrm s^2})t^2+(9.215\,\tfrac{\mathrm m}{\mathrm s})t-2.465\,\mathrm m \\
 v_x&=1.531\,\tfrac{\mathrm m}{\mathrm s} \\
 v_y&=-(11.63\,\tfrac{\mathrm m}{\mathrm s^2})t+9.241\,\tfrac{\mathrm m}{\mathrm s}
-\end{aligned}
-\]
+\end{align*}
 Note that the coefficient for the $t$ term in $v_x$ for both cases should be negligible because the velocity is not actually changing. There is no force acting on the object horizontally that would cause it to accelerate.
 
 ## Discussion
@@ -136,12 +132,10 @@ Note that the coefficient for the $t$ term in $v_x$ for both cases should be neg
 ### Horizontal component
 
 Looking at the horizontal component, we can see that the acceleration was initially around $2.5\,\mathrm m/\mathrm s$ before the bounce, and $1.6\,\mathrm m/\mathrm s$ after the bounce. We know this because this is the constant term in the velocity equation (for $v_x$) and because this is the coefficient for $t$ in the position equation (for $x$). In other words, it is the boxed value here:
-\[
-\begin{aligned}
+\begin{align*}
 x&=\cancel{\tfrac12a_xt^2}+\boxed{v_{x,0}}t+x_0 \\
 v_x&=\cancel{a_xt}+\boxed{v_{x,0}}
-\end{aligned}
-\]
+\end{align*}
 (The term for acceleration should be removed since there is no acceleration in the horizontal direction. The equations have been rearranged for clarity.)
 
 From here, I wanted to reflect on why the horizontal component would change and why it would change at this scale. But because bounces can’t destroy momentum, the total velocity in both directions should not change significantly. (Yes, I’m getting a bit ahead here, and I might be wrong, but why not test it out?)
@@ -151,43 +145,41 @@ From here, I wanted to reflect on why the horizontal component would change and 
 Looking at the vertical component, we can see that the initial vertical velocity was around $-2.4\,\mathrm m/\mathrm s$ before the bounce, and around $9.2\,\mathrm m/\mathrm s$ after the bounce. We also know this from the equations shown above.
 
 Interestingly, the value of gravity was estimated to be around $-11.5\,\mathrm m/\mathrm s^2$ to $-12.0\,\mathrm m/\mathrm s^2$. We also know this from the values in equations:
-\[
-\begin{aligned}
+\begin{align*}
 y&=\tfrac12\boxed{a_y}t^2+v_{y,0}t+y_0 \\
 v_y&=\boxed{a_y}t+v_{y,0}
-\end{aligned}
-\]
+\end{align*}
 We know that the true value should be $-g\approx-9.8\,\mathrm m/\mathrm s^2$. Clearly, something is amiss. This will be discussed further upon in the “Potential sources of error” section below.
 
 Note that, right before the bounce (at $t=0.3500\,\mathrm s$), the vertical velocity is (using the first set of equations)
-\[
+\begin{equation*}
 v_y=-(11.64\,\tfrac{\mathrm m}{\mathrm s^2})(0.3500\,\mathrm s)-2.454\,\tfrac{\mathrm m}{\mathrm s}\approx-6.528\,\tfrac{\mathrm m}{\mathrm s}
-\]
+\end{equation*}
 and right after, the velocity is (using the second set of equations)
-\[
+\begin{equation*}
 v_y=-(11.63\,\tfrac{\mathrm m}{\mathrm s^2})(0.3500\,\mathrm s)+9.241\,\tfrac{\mathrm m}{\mathrm s}=5.167\,\tfrac{\mathrm m}{\mathrm s}
-\]
+\end{equation*}
 
 ### Two-dimensional analysis
 
 Then, looking at the total velocity, we have, before the bounce,
-\[
+\begin{equation*}
 v=\sqrt{v_x^2+v_y^2}=\sqrt{(2.493\,\tfrac{\mathrm m}{\mathrm s})^2+(-6.528\,\tfrac{\mathrm m}{\mathrm s})^2}\approx6.988\,\tfrac{\mathrm m}{\mathrm s}
-\]
+\end{equation*}
 and after the bounce,
-\[
+\begin{equation*}
 v=\sqrt{v_x^2+v_y^2}=\sqrt{(1.531\,\tfrac{\mathrm m}{\mathrm s})^2+(5.167\,\tfrac{\mathrm m}{\mathrm s})^2}\approx5.389\,\tfrac{\mathrm m}{\mathrm s}
-\]
+\end{equation*}
 Clearly, the velocity has changed. I believe that the most important factor is the elasticity of the tennis ball. The velocity after the bounce over before is $(5.389\,\mathrm m/\mathrm s)\big/(6.988\,\mathrm m/\mathrm s)\approx0.771$. A quick Internet search directed me to [a website](https://www.quintic.com/education/case_studies/coefficient_restitution.htm) where experimenters determined that this value was around $0.82$ for a tennis ball after a few quick trials. The numbers look quite similar.
 
 The angle before the bounce is
-\[
+\begin{equation*}
 \arctan\frac{v_y}{v_x}=\arctan\frac{-6.528\,\mathrm m/\mathrm s}{2.493\,\mathrm m/\mathrm s}\approx-69^\circ
-\]
+\end{equation*}
 and the angle after the bounce is
-\[
+\begin{equation*}
 \arctan\frac{v_y}{v_x}=\arctan\frac{5.167\,\mathrm m/\mathrm s}{1.531\,\mathrm m/\mathrm s}\approx73^\circ
-\]
+\end{equation*}
 These angles are close enough in absolute value, so it is possible that the bounce simply reflected the trajectory of the ball horizontally.
 
 ### Potential sources of error
