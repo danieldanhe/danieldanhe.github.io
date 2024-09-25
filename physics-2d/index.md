@@ -202,12 +202,12 @@ In the analysis process, there may have been issues as well. I could think of po
 
 In understanding this information, we may have had a bit of information on how the trajectory of an object might change from before and after a bounce. Notably, I found it interesting to note that the angle became roughly negative from before and after. I also found my own makeshift definition for an elasticity coefficient interesting. I know that this coefficient might change for different objects, but from this, I realised clearly that this coefficient indeed does exist – that objects aren’t perfectly elastic. It might seem obvious, but I was a bit confused at the start about why the velocity before and after the bounce was different.
 
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 <script>
 window.MathJax = {
   tex: {
-    inlineMath: [['$', '$']],
-    displayMath: [['$$', '$$']]
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
   }
 };
 </script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
