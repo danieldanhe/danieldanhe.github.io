@@ -1,12 +1,10 @@
 # Two-Dimensional Motion Project for Accelerated Physics
 
-Created by Daniel He
-
 ## Video
 
 I decided to record a video of myself throwing a tennis ball downwards first, proceeding downwards more from gravity, and allowing it to hit the ground and bounce up again. I thought it would be interesting to analyse how the velocity might change from the bounce.
 
-<video controls>
+<video controls style="max-width: 100%;">
   <source src="./ball.mp4" type="video/mp4">
 </video>
 
@@ -203,3 +201,13 @@ In the analysis process, there may have been issues as well. I could think of po
 ### Real-world applications
 
 In understanding this information, we may have had a bit of information on how the trajectory of an object might change from before and after a bounce. Notably, I found it interesting to note that the angle became roughly negative from before and after. I also found my own makeshift definition for an elasticity coefficient interesting. I know that this coefficient might change for different objects, but from this, I realised clearly that this coefficient indeed does exist – that objects aren’t perfectly elastic. It might seem obvious, but I was a bit confused at the start about why the velocity before and after the bounce was different.
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$']],
+    displayMath: [['$$', '$$']]
+  }
+};
+</script>
