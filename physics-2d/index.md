@@ -113,16 +113,16 @@ Here is the graph for both $x$ and $y$ velocity:
 
 The appropriate best-fit equations are, for the first half (before the bounce),
 \begin{align}
-x&=(2.627\,\tfrac{\mathrm m}{\mathrm s})t+1.183\,\mathrm m \\\\
-y&=-(5.980\,\tfrac{\mathrm m}{\mathrm s^2})t^2-(2.374\,\tfrac{\mathrm m}{\mathrm s})t+1.623\,\mathrm m \\\\
-v_x&=2.493\,\tfrac{\mathrm m}{\mathrm s} \\\\
+x&=(2.627\,\tfrac{\mathrm m}{\mathrm s})t+1.183\,\mathrm m \\\\\\
+y&=-(5.980\,\tfrac{\mathrm m}{\mathrm s^2})t^2-(2.374\,\tfrac{\mathrm m}{\mathrm s})t+1.623\,\mathrm m \\\\\\
+v_x&=2.493\,\tfrac{\mathrm m}{\mathrm s} \\\\\\
 v_y&=-(11.64\,\tfrac{\mathrm m}{\mathrm s^2})t-2.454\,\tfrac{\mathrm m}{\mathrm s}
 \end{align}
 and for the second half (after the bounce),
 \begin{align}
-x&=(1.752\,\tfrac{\mathrm m}{\mathrm s})t+1.474\,\mathrm m \\\\
-y&=-(5.775\,\tfrac{\mathrm m}{\mathrm s^2})t^2+(9.215\,\tfrac{\mathrm m}{\mathrm s})t-2.465\,\mathrm m \\\\
-v_x&=1.531\,\tfrac{\mathrm m}{\mathrm s} \\\\
+x&=(1.752\,\tfrac{\mathrm m}{\mathrm s})t+1.474\,\mathrm m \\\\\\
+y&=-(5.775\,\tfrac{\mathrm m}{\mathrm s^2})t^2+(9.215\,\tfrac{\mathrm m}{\mathrm s})t-2.465\,\mathrm m \\\\\\
+v_x&=1.531\,\tfrac{\mathrm m}{\mathrm s} \\\\\\
 v_y&=-(11.63\,\tfrac{\mathrm m}{\mathrm s^2})t+9.241\,\tfrac{\mathrm m}{\mathrm s}
 \end{align}
 Note that the coefficient for the $t$ term in $v_x$ for both cases should be negligible because the velocity is not actually changing. There is no force acting on the object horizontally that would cause it to accelerate.
@@ -133,7 +133,7 @@ Note that the coefficient for the $t$ term in $v_x$ for both cases should be neg
 
 Looking at the horizontal component, we can see that the acceleration was initially around $2.5\,\mathrm m/\mathrm s$ before the bounce, and $1.6\,\mathrm m/\mathrm s$ after the bounce. We know this because this is the constant term in the velocity equation (for $v_x$) and because this is the coefficient for $t$ in the position equation (for $x$). In other words, it is the boxed value here:
 \begin{align}
-x&=\cancel{\tfrac12a_xt^2}+\boxed{v_{x,0}}t+x_0 \\\\
+x&=\cancel{\tfrac12a_xt^2}+\boxed{v_{x,0}}t+x_0 \\\\\\
 v_x&=\cancel{a_xt}+\boxed{v_{x,0}}
 \end{align}
 (The term for acceleration should be removed since there is no acceleration in the horizontal direction. The equations have been rearranged for clarity.)
@@ -146,7 +146,7 @@ Looking at the vertical component, we can see that the initial vertical velocity
 
 Interestingly, the value of gravity was estimated to be around $-11.5\,\mathrm m/\mathrm s^2$ to $-12.0\,\mathrm m/\mathrm s^2$. We also know this from the values in equations:
 \begin{align}
-y&=\tfrac12\boxed{a_y}t^2+v_{y,0}t+y_0 \\\\
+y&=\tfrac12\boxed{a_y}t^2+v_{y,0}t+y_0 \\\\\\
 v_y&=\boxed{a_y}t+v_{y,0}
 \end{align}
 We know that the true value should be $-g\approx-9.8\,\mathrm m/\mathrm s^2$. Clearly, something is amiss. This will be discussed further upon in the “Potential sources of error” section below.
