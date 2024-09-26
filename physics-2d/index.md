@@ -153,7 +153,7 @@ We know that the true value should be $-g\approx-9.8\,\mathrm m/\mathrm s^2$. Cl
 
 Note that, right before the bounce (at $t=0.3500\,\mathrm s$), the vertical velocity is (using the first set of equations)
 \begin{equation}
-v_y=-(11.64\,\tfrac{\mathrm m}{\mathrm s^2})(0.3500\,\mathrm s)-2.454\,\tfrac{\mathrm m}{\mathrm s}\approx-6.528\,\tfrac{\mathrm m}{\mathrm s}
+v_y=-(11.64\,\tfrac{\mathrm m}{\mathrm s^2})(0.3500\,\mathrm s)-2.454\,\tfrac{\mathrm m}{\mathrm s}=-6.528\,\tfrac{\mathrm m}{\mathrm s}
 \end{equation}
 and right after, the velocity is (using the second set of equations)
 \begin{equation}
